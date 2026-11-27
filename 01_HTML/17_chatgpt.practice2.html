@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <hr>
+    <form action="/action">
+        <div>
+            <label for="Username">Username</label>
+            <input type="text" id="Username" placeholder="Enter Your Name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email Id">
+        </div>
+        <br>
+        <div>
+            <label for="Passward">Passward</label>
+            <input type="password" id="Passward" placeholder="Enter Passward">
+        </div>
+        <br>
+        <div>
+            <h2>Enter Your Date Of Birth</h2>
+            <label for="Date Of Birth">Date of Birth</label>
+            <input type="date">
+        </div>
+        <br>
+        <div>
+            <h2>Please Select Your Gender</h2>
+            <input type="radio" id="Male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>
+            <input type="radio" id="Others" name="Gender" value="Others">
+            <label for="Others">Others</label>
+        </div>
+        <br>
+        <div>
+            <h2>Select Your Skills</h2>
+            <input type="checkbox" id="HTML" name="html">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="CSS" name="CSS">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="JAVASCRIPT" name="JAVASCRIPT">
+            <label for="HTML">JAVASCRIPT</label>
+            <input type="checkbox" id="PYTHON" name="PYTHON">
+            <label for="HTML">PYTHON</label>
+        </div>
+        <br>
+        <div>
+            <h2>Select Your Current City</h2>
+            <label for="City">Please select Your City</label>
+            <select name="City" id="City">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Hyderabadh">Hyderabadh</option>
+            </select>
+        </div>
+        <br>
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
